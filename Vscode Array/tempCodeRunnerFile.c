@@ -1,2 +1,2 @@
-f(a[i]==a[j]){  
-                    count++;
+
+    for(i=0;i<=limit1;i++){

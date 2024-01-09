@@ -9,11 +9,11 @@ int main()
      printf("Enter the values of array: \n");
      for(i=0;i<limit;i++){
         scanf("%d",&a[i]);
-     }
+    }
 
     printf("\nThe unique elements found in the array are: \n");
      for(i=0;i<limit;i++)
-     {
+    {
         count=0;
         for(j=0;j<limit;j++){
             if(i!=j){
@@ -26,5 +26,5 @@ int main()
         if(count==0)
      printf("%d\n",a[i]);
 
-     }
+    }
 } 
