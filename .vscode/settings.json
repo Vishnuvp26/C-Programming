@@ -2,5 +2,6 @@
     "editor.codeActionsOnSave": {
 
     },
-    "C_Cpp.default.compilerPath": ""
+    "C_Cpp.default.compilerPath": "",
+    "codesnap.containerPadding": "1em"
 }
