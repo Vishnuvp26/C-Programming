@@ -3,5 +3,8 @@
 
     },
     "C_Cpp.default.compilerPath": "",
-    "codesnap.containerPadding": "1em"
+    "codesnap.containerPadding": "1em",
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }

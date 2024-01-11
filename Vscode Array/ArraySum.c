@@ -3,9 +3,9 @@
 int main()
 {
     int limit,sum=0,i,value[100];
-    printf("Enter a limit");
+    printf("Enter a limit : ");
     scanf("%d", &limit); 
-    printf("Enter Values");
+    printf("Enter Values\n");
     for(i=0;i<limit;i++){
         scanf("%d", &value[i]);
     }

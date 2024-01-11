@@ -3,9 +3,9 @@
 int main()
 {
     int limit,i,values[100],j,temp;
-    printf("Enter limit");
+    printf("Enter limit : ");
     scanf("%d",&limit);
-    printf("Enter values");
+    printf("Enter values\n");
     for(i=0;i<limit;i++){
         scanf("%d",&values[i]);
     }
@@ -23,5 +23,4 @@ printf("Sorted values");
 for(i=0;i<limit;i++){
     printf("%d\t",values[i]);
 }
-
 } 

@@ -3,9 +3,9 @@
 int main()
 {
     int limit,i,value[100],SearchKey,flag=0;
-    printf("Enter a limit");
+    printf("Enter a limit : ");
     scanf("%d", &limit); 
-    printf("Enter Values");
+    printf("Enter Values\n");
     for(i=0;i<limit;i++){ 
         scanf("%d", &value[i]);
     }
