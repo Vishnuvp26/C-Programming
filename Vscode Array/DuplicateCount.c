@@ -6,22 +6,20 @@ int main() {
 
     printf("Enter the size of the array: ");
     scanf("%d", &n);
-
     printf("Enter %d elements in the array:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
 
-    
-    for (i = 0; i < n; i++) {  // Check for duplicate elements
-        for (j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
+    for(i=0;i<n;i++){  // Check for duplicate elements
+        for(j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
                 count++;
                 break;  // Exit the inner loop when a duplicate is found
             }
         }
     }
-
+    
     printf("Total number of duplicate elements: %d\n", count);
 
     return 0;
