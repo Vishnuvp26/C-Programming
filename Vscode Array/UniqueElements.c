@@ -18,7 +18,7 @@ int main()
         for(j=0;j<limit;j++){
             if(i!=j){
                 if(a[i]==a[j]){
-                    count++;
+                    count++; //unique elements are values who dont have copies, so copy will be count++ and count=0 is non copy so it get's printed
                 }
             }
         }
@@ -28,3 +28,4 @@ int main()
 
     }
 } 
+
