@@ -6,7 +6,7 @@
 int main ()
 {
     int limit,a[100],i,j;
-    int counter=0;
+    int count=0;
     printf("Enter the size of array: \n");
     scanf("%d", &limit);
 
@@ -17,14 +17,14 @@ int main ()
 
     printf("\nThe prime numbers are: \n");
     for(i=0;i<limit;i++){
-        counter=0;
+        count=0;
         for(j=2;j<a[i];j++){
             if(a[i]%j==0){
-                counter=1; // indicate not a prime and printf is skipped
+                count++; // indicate not a prime and printf is skipped
                 break;
             }
         }
-        if(counter==0) // prime is printed when count==0
+        if(count==0) // prime is printed when count==0
         printf("\t%d",a[i]);
     }
 }

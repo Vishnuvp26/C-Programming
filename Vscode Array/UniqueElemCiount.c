@@ -2,7 +2,8 @@
 int main()
 {
     int limit,a[100],i,j;
-    int count=0,sum=0;
+    int count=0,flag=0;
+    
     printf("Enter the size of array: \n");
     scanf("%d", &limit);
 
@@ -11,23 +12,21 @@ int main()
         scanf("%d",&a[i]);
     }
 
-    printf("\nThe unique elements found in the array are: \n");
-     for(i=0;i<limit;i++)
-    {
-        count=0;
-        for(j=i+1;j<limit;j++){
+     for(i=0;i<limit;i++){
+        flag=0;
+        for(j=0;j<limit;j++){
             if(i!=j){
                 if(a[i]==a[j]){
-                    count++;
+                    flag=1;
+                    break; 
                 }
             }
         }
 
-        if(count==0){
-        printf("%d\n",a[i]);
-        sum=sum+a[i];
+        if(flag==0){
+        count++;
         }
-     
     }
-    printf("\nThe sum of unique elements are: %d\n", sum);
-} 
+     printf("count of unique elements are : %d",count);
+}
+
