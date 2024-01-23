@@ -5,6 +5,7 @@
     "C_Cpp.default.compilerPath": "",
     "codesnap.containerPadding": "1em",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "P123654.C": "cpp"
     }
 }

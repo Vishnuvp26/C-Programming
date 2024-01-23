@@ -10,7 +10,7 @@ int main ()
     printf("Enter the size of array: \n");
     scanf("%d", &limit);
 
-     printf("Enter the values of array: \n");
+     printf("Enter the values of array: \n");       
      for(i=0;i<limit;i++){
         scanf("%d",&a[i]);
     }

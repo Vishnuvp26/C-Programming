@@ -22,7 +22,7 @@ int main(){
             }
 
             b[i]=freq;
-      }
+        }
     }
 
     printf("Frequency of each element in the array:\n");

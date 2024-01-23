@@ -15,15 +15,15 @@ int main()
 	    
     printf("Enter the Position :\n");
        scanf("%d",&k);
-    for(i=k-1;i<n-1;i++){
-	arr1[i]=arr1[i+1];
-    }
+       
+      for(i=k-1;i<n-1;i++){
+	     arr1[i]=arr1[i+1];
+      }
 
-    printf(" Result : \n");
-    for(i=0;i<n-1;i++){
+   printf(" Result : \n");
+   for(i=0;i<n-1;i++){
 	printf("%d\t", arr1[i]);
     }
    	
      return 0;
  }
- 
