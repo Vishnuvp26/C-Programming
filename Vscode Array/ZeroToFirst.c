@@ -13,10 +13,11 @@ int main()
 		} 
 	} 
 
-    printf("After moving zero to end :\n");
+    printf("After moving zero to front :\n");
 	for(i=0;i<n;i++){ 
 		printf("%d", A[i]); // Print the array 
 	} 
 
 	return 0; 
 }
+	

@@ -7,11 +7,11 @@ int main()
         k=0;
         for(j=1;j<=5;j++){
           if(j<=i+1){
-            printf("%d ",k);
-            k=k+i-1;
+            printf("%2d ",k);
+            k=k+i*1; // multiplication
           }
           else
-            printf(" "); 
+            printf("  "); 
         }
         printf("\n");
     }

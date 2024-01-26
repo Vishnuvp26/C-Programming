@@ -28,10 +28,8 @@ int main()
         }
     }
 
-
     printf("Sorted values are:");
-    for(i=0;i<limit;i++)
-    {
+    for(i=0;i<limit;i++){
         printf("%d\t",value[i]);
     }
 }
