@@ -19,7 +19,7 @@ int main() {
         }
     }
     
-    printf("Total number of duplicate elements: %d\n", count);
+    printf("%d duplicate Count: %d\n", arr[i], count);
 
     return 0;
 }
